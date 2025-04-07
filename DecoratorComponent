@@ -1,0 +1,11 @@
+from abc import ABC, abstractmethod
+
+class Plato(ABC):
+    
+    @abstractmethod
+    def MostrarNombre(self):
+        pass
+    
+    @abstractmethod
+    def MostrarIngredientes(self):
+        pass
